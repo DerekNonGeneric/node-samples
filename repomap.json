@@ -1,0 +1,33 @@
+{
+  "jsSampleSrcs": [
+    ""
+  ],
+  "mdSampleSrcs": [
+    ""
+  ],
+  "localInfra": [
+    "/README.md",
+    "/.gitignore",
+    "/package.json",
+    "/package-lock.json",
+    "/repomap.json",
+    "/externs/*",
+    "/tasks/*",
+    "/test/fixtures/.eslintrc.yaml"
+  ],
+  "upstreamInfra": [
+    "/.eslintrc.js",
+    "/doc/api/errors.md",
+    "/test/.eslintrc.yaml",
+    "/tools/eslint-rules/**/*",
+    "/tools/lint-md.js",
+    "/tools/node_modules/babel-eslint/**/*",
+    "/tools/node_modules/eslint-plugin-node-core/**/*",
+    "/tools/node_modules/eslint/**/*",
+    "/tools/node-lint-md-cli-rollup/**/*",
+    "/tools/update-authors.js"
+  ]
+}
+
+
+

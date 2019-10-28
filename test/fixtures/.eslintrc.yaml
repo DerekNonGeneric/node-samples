@@ -1,0 +1,14 @@
+## Test fixture-specific linter rules
+
+env:
+  node: true
+  es6: true
+plugins:
+  - 'jsdoc'
+extends:
+  - 'plugin:jsdoc/recommended'
+rules:
+  jsdoc/require-param-description: off
+  jsdoc/require-returns-description: off
+  node-core/required-modules: off
+  node-core/require-common-first: off
