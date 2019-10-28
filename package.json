@@ -1,0 +1,42 @@
+{
+  "name": "node-samples",
+  "version": "1.0.0",
+  "description": "Boilerplate for adding embedded samples in Node.js docs",
+  "main": "tasks/run-check-roulette.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.7",
+    "cross-spawn": "^7.0.1",
+    "google-closure-compiler": "^20190929.0.0",
+    "shelljs": "^0.8.3",
+    "shx": "^0.3.2",
+    "tempy": "^0.3.0",
+    "typescript": "^3.7.0-beta"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-jsdoc": "^16.1.1",
+    "eslint-plugin-node-core": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "node tasks/bootstrap",
+    "test": "node tasks/run-check-roulette"
+  },
+  "resolutions": {
+    "typescript": "^3.7.0-beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekNonGeneric/node-samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekNonGeneric/node-samples/issues"
+  },
+  "homepage": "https://github.com/DerekNonGeneric/node-samples#readme"
+}
