@@ -19,7 +19,8 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-plugin-jsdoc": "^16.1.1",
-    "eslint-plugin-node-core": "^1.0.0"
+    "eslint-plugin-node-core": "^1.0.0",
+    "minimist": ">=1.2.2"
   },
   "scripts": {
     "postinstall": "node tasks/bootstrap",
