@@ -34,8 +34,8 @@
     "url": "git+https://github.com/DerekNonGeneric/node-samples.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Derek Lewis",
+  "license": "0BSD",
   "bugs": {
     "url": "https://github.com/DerekNonGeneric/node-samples/issues"
   },
