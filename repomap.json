@@ -1,9 +1,9 @@
 {
   "jsSampleSrcs": [
-    ""
+    "test/fixtures/es-module-loaders/example-loader.mjs"
   ],
   "mdSampleSrcs": [
-    ""
+    "doc/api/esm.md"
   ],
   "localInfra": [
     "/README.md",
