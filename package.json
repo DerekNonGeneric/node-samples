@@ -8,26 +8,23 @@
     "test": "test"
   },
   "dependencies": {
-    "@types/node": "^12.11.7",
-    "cross-spawn": "^7.0.1",
-    "google-closure-compiler": "^20190929.0.0",
+    "@types/node": "^13.11.0",
+    "cross-spawn": "^7.0.2",
+    "google-closure-compiler": "^20200315.0.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
-    "tempy": "^0.3.0",
-    "typescript": "^3.7.0-beta"
+    "tempy": "^0.5.0",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-plugin-jsdoc": "^16.1.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jsdoc": "^22.1.0",
     "eslint-plugin-node-core": "^1.0.0",
-    "minimist": ">=1.2.2"
+    "minimist": "^1.2.5"
   },
   "scripts": {
     "postinstall": "node tasks/bootstrap",
     "test": "node tasks/run-check-roulette"
-  },
-  "resolutions": {
-    "typescript": "^3.7.0-beta"
   },
   "repository": {
     "type": "git",
